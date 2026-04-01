@@ -44,6 +44,7 @@ from .tokenizer_utils import load as _load_tokenizer
 # Constants
 MODEL_REMAPPING = {
     "mistral": "llama",
+    "cwm": "llama",
     "llava": "mistral3",
     "phi-msft": "phixtral",
     "falcon_mamba": "mamba",
